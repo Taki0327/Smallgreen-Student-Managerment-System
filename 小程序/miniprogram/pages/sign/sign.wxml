@@ -1,0 +1,17 @@
+<view wx:if="{{loadshow}}" class="{{loading}}">
+<image src="../images/loading.gif" style="height:500rpx;width:500rpx;"></image>
+</view>
+<view class="top"><text style="font-size: 40rpx;" space='nbsp'>{{school}}</text><text style="font-size: 33rpx;" space='nbsp'>   {{classid}} 班</text></view>
+<view class="hr"></view>
+<text space='nbsp' style="font-size: 33rpx; padding: 15px 20rpx;background-color: white;">{{date}}  {{week}}\n</text>
+<view style=" display: flex;flex-direction: row;padding: 0px 20rpx;background-color: white;">
+<image src="{{imgsrc}}" style=" width: 30rpx;height: 30rpx;"></image><text space='nbsp' style="font-size: 25rpx"> {{sign}}  {{signtime}}</text>
+</view>
+<view style="background-color: white;padding: 20rpx 0rpx;">
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16"  markers="{{markers}}" circles="{{circles}}"  show-location style="width: 100%; height: 35vh;"></map>
+<button class="button" bindtap="fresh">刷新位置</button>
+</view>
+<view class="btn">
+<image wx:if="{{showsign}}" bindtap="sign" class="image" src="../images/sign.png"></image>
+<image wx:if="{{showleave}}" bindtap="leave" class="image" src="../images/leave.png"></image>
+</view>

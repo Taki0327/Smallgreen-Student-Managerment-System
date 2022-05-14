@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/check/check",
+    "pages/index/index",
+    "pages/about/about",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/leave/leave",
+    "pages/sign/sign"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息仅在本地判断 不会保存或上传 请放心授权qwq"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "学生管理系统",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/sign/sign",
+        "text": "考勤",
+        "iconPath": "pages/images/address (1).png",
+        "selectedIconPath": "pages/images/address.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "通知",
+        "iconPath": "pages/images/face.png",
+        "selectedIconPath": "pages/images/face (1).png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/images/nickname.png",
+        "selectedIconPath": "pages/images/nickname (1).png"
+      }
+    ]
+  }
+}

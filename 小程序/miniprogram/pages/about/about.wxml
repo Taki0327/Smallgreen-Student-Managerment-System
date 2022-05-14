@@ -1,0 +1,11 @@
+<view class="main">
+<view style=" display: flex;flex-direction: column;align-items: center;">
+<image src="../images/gh_5dd4dd594238_258.jpg" style="width:250rpx;height:250rpx"></image>
+<text style="font-size: 38rpx;">\n绿绿学生管理系统\n\n</text>
+<text class="text">特别鸣谢(排名不分先后)：iconfont\n</text>
+<text class="text">飞鸽·内网穿透\n</text>
+<text class="text">CSDN\n</text>
+<text class="text">博客园\n</text>
+<text class="text">小绿科技</text>
+</view>
+</view>

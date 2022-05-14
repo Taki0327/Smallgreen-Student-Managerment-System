@@ -1,0 +1,7 @@
+<view wx:if="{{loadshow}}" class="{{loading}}">
+<image src="../images/loading.gif" style="height:500rpx;width:500rpx;"></image>
+</view>
+<view class="a">
+<textarea placeholder="请输入你的请假理由" bindinput="reasontext" value="{{msg}}"></textarea>
+<button bindtap="leave" loading="{{loading2}}">提交并返回</button>
+</view>

@@ -1,0 +1,58 @@
+/* miniprogram/pages/sign/sign.wxss */
+page{
+  background-color: white;
+}
+.button{
+  margin-top:50rpx;
+border-radius: 98rpx;
+  color: white;
+  background-color:#00ff00;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  padding: 22rpx;
+  align-items: center;/*水平居中*/
+  justify-content: space-around;/*垂直居中*/
+  background-color: white;
+  height:22vh;
+}
+
+img{
+ width: 100rpx;
+  height: 100rpx;
+  border-radius: 88%;
+}
+.hr{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.top{
+  padding: 15px;
+  background-color: white;
+}
+.circle{
+   width: 330rpx;
+  height: 330rpx;
+  border-radius: 88%;
+}
+.image{
+  width: 20vh;
+  height: 20vh;
+  border-radius: 88%;
+   display: flex;
+}
+.loadingshow
+{
+  height: 100vh;/*高100*/
+  display: flex;
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平居中*/
+  justify-content: space-around;/*垂直居中*/
+  background-color: white;
+}
+.loadinghidden
+{
+   height: 0;/*高100*/
+}

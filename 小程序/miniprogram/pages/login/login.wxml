@@ -1,0 +1,25 @@
+<view wx:if="{{loadshow}}" class="{{loading2}}">
+<image src="../images/loading.gif" style="height:500rpx;width:500rpx;"></image>
+</view>
+<view class="body">
+<view class="bt">
+<text class="tips">{{zt}}\n\n</text>
+</view>
+<view class="xx">
+姓名：<input type="text" maxlength="5" name="name" bindinput="nameinput" value="{{name}}" placeholder="请输入你的姓名"/>
+</view>
+<view class="xx">
+学校：<input type="text" value='{{school}}' name="school" disabled="true"/>(暂不允许修改)
+</view>
+<view class="xx">
+班级：<input type="text" value='{{classid}}' name="classid" disabled="true"/>(暂不允许修改)
+</view>
+<view class="xx">
+学号：<input type="number" maxlength="3" name="stuid" bindinput="stuidinput" value='{{stuid}}' placeholder="请输入你的学号" />
+</view>
+<view class="xx">
+身份证号：<input type="idcard" maxlength="18" name="idcard" bindinput="idcardinput" value='{{idcard}}' placeholder="请输入你的身份证号" />
+</view><text>\n\n</text>
+<button class=".button" bindtap="getinformation" loading="{{loading}}">提交审核</button>
+<text>\n\n*每位学生仅可绑定一个微信账号，审核通过后无法自行修改，请确认是否绑定该微信账号。\n*如果你的账户被其他人绑定导致审核失败，请联系管理人员确认。</text>
+</view>

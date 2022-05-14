@@ -1,0 +1,8 @@
+.main{
+   height: 100vh;/*高100*/
+    display: flex;
+    flex-direction: column;/*垂直布局*/
+    justify-content: space-around;/*垂直居中*/
+    background-color: white;
+     align-items: center;/*水平居中*/
+}

@@ -1,0 +1,9 @@
+<view class="body">
+<view class="bt">
+<image class="face" src="{{avatarUrl}}"></image>
+<text>\n{{name}}</text>
+<text class="tips">\n{{zt}}\n\n\n\n</text>
+<button wx:if="{{show}}" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">我要登录</button>
+<text class="bot">Powered by Taki</text>
+</view>
+</view>

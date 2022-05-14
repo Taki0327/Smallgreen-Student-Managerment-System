@@ -1,0 +1,37 @@
+/* miniprogram/pages/check/check.wxss */
+/* miniprogram/pages/login/login.wxss */
+.body
+{
+    height: 100vh;/*高100*/
+    display: flex;
+    flex-direction: column;/*垂直布局*/
+    justify-content: space-around;/*垂直居中*/
+    background-color: white;
+}
+.bt{
+  font-size: 38rpx;
+  display: flex;
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平居中*/
+  justify-content: space-around;/*垂直居中*/
+}
+.face{
+  width: 300rpx;
+  height: 300rpx;
+  margin: 10rpx;
+  border-radius: 88%;
+}
+.tips{
+    font-style:inherit;
+}
+button{
+  font-size: 50rpx;
+  color: white;
+  border-radius: 98rpx;
+  background-color:#00ff00;
+}
+.bot{
+  position: fixed;
+  bottom: 0;
+  font-size: 22rpx;
+}

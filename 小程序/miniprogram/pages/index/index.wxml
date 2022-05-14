@@ -1,0 +1,9 @@
+<view wx:if="{{loadshow}}" class="{{loading}}">
+<image src="../images/loading.gif" style="height:500rpx;width:500rpx;"></image>
+<text style="font-size: 40rpx;">本页面下拉可以刷新喔</text>
+</view>
+<view class="main" wx:for="{{content}}" wx:key="content">
+<text style="font-size: 40rpx;" space='nbsp'>{{item.Head}}\n</text>
+<view class="msg"><text style="font-size: 25rpx;" space='nbsp'>{{item.Msg}}\n</text></view>
+<view class="time"><text space='nbsp'>{{item.People}}   {{item.Time}}  [{{item.Id}}]</text></view>
+</view>
